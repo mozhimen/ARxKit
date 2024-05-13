@@ -30,7 +30,7 @@ android:exported="true">
 <action android:name="android.intent.action.BOOT_COMPLETED" />
 </intent-filter>
 </receiver>
-
+<receiver
  * @Author Kolin Zhao / Mozhimen
  * @Version 1.0
  */
