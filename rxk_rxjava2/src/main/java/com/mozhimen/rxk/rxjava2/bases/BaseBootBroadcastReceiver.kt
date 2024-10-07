@@ -2,10 +2,10 @@ package com.mozhimen.rxk.rxjava2.bases
 
 import android.content.Context
 import android.content.Intent
-import com.mozhimen.basick.elemk.android.content.bases.BaseBroadcastReceiver
-import com.mozhimen.basick.elemk.android.content.cons.CIntent
-import com.mozhimen.basick.lintk.optins.permission.OPermission_RECEIVE_BOOT_COMPLETED
-import com.mozhimen.basick.utilk.android.content.startContext
+import com.mozhimen.kotlin.elemk.android.content.bases.BaseBroadcastReceiver
+import com.mozhimen.kotlin.elemk.android.content.cons.CIntent
+import com.mozhimen.kotlin.lintk.optins.permission.OPermission_RECEIVE_BOOT_COMPLETED
+import com.mozhimen.kotlin.utilk.android.content.startContext
 import com.mozhimen.rxk.rxjava2.commons.IObserver
 import com.mozhimen.rxk.rxjava2.utils.TransformerUtil
 import io.reactivex.Observable
