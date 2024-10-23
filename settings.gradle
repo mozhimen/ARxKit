@@ -28,8 +28,13 @@ include ':rxk_epoxy3'
 include ':rxk_rxbinding3'
 include ':rxk_rxpermissions2'
 include ':rxk_rxkotlin2'
+include ':rxk_epoxy4'
 //SwiftKit
 include ':SwiftKit'
 project(':SwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\SwiftKit")
 include ':SwiftKit:basick'
-include ':rxk_epoxy4'
+//KUtilKit
+include ':KUtilKit'
+project(':KUtilKit').projectDir = new File("D:\\WorkSpace\\GitHub\\KUtilKit")
+include ':KUtilKit:utilk_android'
+include ':KUtilKit:utilk_kotlin'
