@@ -1,0 +1,1 @@
+-keepnames public interface com.uber.autodispose.lifecycle.CorrespondingEventsFunction { *; }

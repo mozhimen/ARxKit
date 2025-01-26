@@ -21,21 +21,35 @@ dependencyResolutionManagement {
 
 rootProject.name = "ARxKit"
 include ':app'
-include ':rxk_autodispose'
-include ':rxk_rxjava2'
-include ':rxk_rxrelay2'
-include ':rxk_rxbinding3'
-include ':rxk_rxpermissions2'
-include ':rxk_rxkotlin2'
-include ':rxk_rxlife2'
-include ':rxk_rxhttp'
-//SwiftKit
-include ':SwiftKit'
-project(':SwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\SwiftKit")
-include ':SwiftKit:basick'
+include ':autodispose'
+include ':rxjava2'
+include ':rxrelay2'
+include ':rxbinding3'
+include ':rxpermissions2'
+include ':rxkotlin2'
+include ':rxlife2'
+include ':rxhttp'
+//ALibKit_Jetbrains
+include ':ALibKit_Jetbrains'
+project(':ALibKit_Jetbrains').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Jetbrains")
+include ':ALibKit_Jetbrains:kotlin_stdlib'
+include ':ALibKit_Jetbrains:kotlinx_coroutines'
+//ALibKit_Jetpack
+include ':ALibKit_Jetpack'
+project(':ALibKit_Jetpack').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Jetpack")
+include ':ALibKit_Jetpack:annotation'
+include ':ALibKit_Jetpack:core'
+//ALibKit_Google
+include ':ALibKit_Google'
+project(':ALibKit_Google').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Google")
+include ':ALibKit_Google:material'
+//ASwiftKit
+include ':ASwiftKit'
+project(':ASwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\ASwiftKit")
+include ':ASwiftKit:basick'
 //KUtilKit
 include ':KUtilKit'
 project(':KUtilKit').projectDir = new File("D:\\WorkSpace\\GitHub\\KUtilKit")
-include ':KUtilKit:utilk_android'
-include ':KUtilKit:utilk_kotlin'
+include ':KUtilKit:android'
+include ':KUtilKit:kotlin'
 

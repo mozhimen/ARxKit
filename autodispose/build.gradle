@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.mozhimen.rxk.rxbinding3'
+    namespace 'com.mozhimen.rxk.autodispose'
     compileSdk 34
 
     defaultConfig {
@@ -18,7 +18,7 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
@@ -31,8 +31,9 @@ android {
 }
 
 dependencies {
-    api "com.jakewharton.rxbinding3:rxbinding-core:3.0.0"
-    api "com.jakewharton.rxbinding3:rxbinding-appcompat:3.0.0"
+    api "com.uber.autodispose:autodispose:1.4.0"
+    api "com.uber.autodispose:autodispose-android:1.4.0"
+    api "com.uber.autodispose:autodispose-android-archcomponents:1.4.0"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
