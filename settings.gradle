@@ -53,3 +53,5 @@ project(':KUtilKit').projectDir = new File("D:\\WorkSpace\\GitHub\\KUtilKit")
 include ':KUtilKit:android'
 include ':KUtilKit:kotlin'
 
+include ':rxpermissions_0_10_2'
+include ':rxpermissions_0_9_3'

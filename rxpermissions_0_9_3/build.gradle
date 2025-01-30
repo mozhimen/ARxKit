@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.mozhimen.rxk.rxpermissions2'
+    namespace 'com.mozhimen.rxk.rxpermissions_0_9_3'
     compileSdk 34
 
     defaultConfig {
@@ -31,9 +31,7 @@ android {
 }
 
 dependencies {
-    api "com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar"
-// api 'com.github.tbruyelle:rxpermissions:0.10.2'
-
+    api 'com.tbruyelle.rxpermissions:rxpermissions:0.9.3'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
