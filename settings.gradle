@@ -29,8 +29,9 @@ include ':rxpermissions2'
 include ':rxkotlin2'
 include ':rxlife2'
 include ':rxhttp'
-include ':rxpermissions_0_10_2'
-include ':rxpermissions_0_9_3'
+include ':rxpermissions:v0_10_2'
+include ':rxpermissions:v0_9_3'
+include ':rxjava3'
 //ALibKit_Jetbrains
 include ':ALibKit_Jetbrains'
 project(':ALibKit_Jetbrains').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Jetbrains")
@@ -56,4 +57,3 @@ project(':ASwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\ASwiftKit")
 include ':ASwiftKit:basick'
 
 
-include ':rxjava3'
