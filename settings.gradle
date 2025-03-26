@@ -20,18 +20,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "ARxKit"
-include ':app'
-include ':autodispose'
-include ':rxjava2'
-include ':rxrelay2'
-include ':rxbinding3'
-include ':rxpermissions2'
-include ':rxkotlin2'
-include ':rxlife2'
-include ':rxhttp'
-include ':rxpermissions:v0_10_2'
-include ':rxpermissions:v0_9_3'
-include ':rxjava3'
 //ALibKit_Jetbrains
 include ':ALibKit_Jetbrains'
 project(':ALibKit_Jetbrains').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Jetbrains")
@@ -55,5 +43,18 @@ include ':KUtilKit:kotlin'
 include ':ASwiftKit'
 project(':ASwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\ASwiftKit")
 include ':ASwiftKit:basick'
-
+//
+include ':app'
+include ':autodispose'
+include ':rxjava2'
+include ':rxrelay2'
+include ':rxbinding3'
+include ':rxpermissions2'
+include ':rxkotlin2'
+include ':rxlife2'
+include ':rxhttp'
+include ':rxpermissions:v0_10_2'
+include ':rxpermissions:v0_9_3'
+include ':rxpermissions:v0_12'
+include ':rxjava3'
 
