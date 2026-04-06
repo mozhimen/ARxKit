@@ -4,7 +4,7 @@ import android.content.Context
 import android.content.Intent
 import com.mozhimen.kotlin.elemk.android.content.bases.BaseBroadcastReceiver
 import com.mozhimen.kotlin.elemk.android.content.cons.CIntent
-import com.mozhimen.kotlin.lintk.optins.permission.OPermission_RECEIVE_BOOT_COMPLETED
+import com.mozhimen.kotlin.lintk.optins.manifest.uses_permission.OUsesPermission_RECEIVE_BOOT_COMPLETED
 import com.mozhimen.kotlin.utilk.android.content.startContext
 import com.mozhimen.rxk.rxjava2.commons.IObserver
 import com.mozhimen.rxk.rxjava2.utils.TransformerUtil
@@ -34,7 +34,7 @@ android:exported="true">
  * @Author Kolin Zhao / Mozhimen
  * @Version 1.0
  */
-@OPermission_RECEIVE_BOOT_COMPLETED
+@OUsesPermission_RECEIVE_BOOT_COMPLETED
 open class BaseBootBroadcastReceiver(private val clazz: Class<*>, private val _delayTime: Long = 0L) : BaseBroadcastReceiver() {
 
     override fun onReceive(context: Context, intent: Intent) {
